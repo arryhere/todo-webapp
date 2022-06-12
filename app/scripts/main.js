@@ -58,6 +58,7 @@ function addTodo() {
 //delete -- complete
 function deleteCheck(e) {
     const item = e.target;
+    console.log(item);
     //delete
     if (item.classList.contains("trash-btn") == true) {
         const todo = item.parentElement;
